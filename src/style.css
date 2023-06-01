@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #202035;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(209, 96, 31, 0.133);
+    padding: 30px 25px;
+    height: 90px;
+}
+
+.nav-logo-text,
+ .nav-title{
+    margin: 0;
+}
+.nav-logo-text {
+    margin-right: auto;
+    color: rgb(239, 245, 245);
+    font-size: 22px;
+}
+.nav-title {
+    color: rgb(241, 235, 235);
+}
+.nav-logo {
+    height: 40px;
+    margin-right: 7px;
+}
+main{
+    padding: 57px 27px;
+    color: white;
+    background-image: url(./Images/icon.png);
+    background-repeat: no-repeat;
+    background-position-x:right;
+    background-position-y: 75%;
+}
+.main-title{
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+.main-facts{
+    margin-top: 46px;
+    max-width: 400px;
+}
+.main-facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+.main-facts > li::marker {
+    font-size: 1.4rem;
+}
+
